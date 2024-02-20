@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Book;
+use App\Models\User;
 use App\Models\Borrow;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -51,5 +52,12 @@ class BorrowController extends Controller
         $borrow->delete();
 
         return redirect()->back()->with('message', 'Return successful');
+    }
+    //show all books borrowed of user
+    public function indexBooks()
+
+    {
+
+        return view('books.borrow');
     }
 }

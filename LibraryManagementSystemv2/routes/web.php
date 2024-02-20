@@ -64,3 +64,6 @@ Route::get('/book', [BookController::class, 'viewCreate'])->middleware('auth');
 
 // add/list a book 
 Route::post('/addbook', [BookController::class, 'create'])->middleware('auth');
+
+// show borrowed books of user
+Route::get('/books', [BorrowController::class, 'indexBooks'])->middleware('auth');

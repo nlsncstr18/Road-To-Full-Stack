@@ -109,4 +109,13 @@ class BookController extends Controller
 
         return redirect('/')->with('message', 'Book successfully updated');
     }
+
+    //show all books borrowed of user
+    // public function indexBooks($id)
+
+    // {
+
+    //     $user = User::findOrFail($id);
+    //     return view('books.borrow', ['user' => $user]);
+    // }
 }
