@@ -65,13 +65,13 @@
                                 {{ $borrow->book->title }}
                             @endforeach
                         </td> --}}
-                            <td class="flex items-center px-6 py-4">
+                            <td class=" flex justify-center  px-4 py-2 text-center">
 
                                 <form method="POST" action="/user/{{ $user->id }}">
                                     @csrf
                                     @method('DELETE')
                                     <button
-                                        class="font-medium text-red-600 dark:text-red-500 hover:underline ms-3">Remove</button>
+                                        class="font-medium  text-red-600 dark:text-red-500 hover:underline">Remove</button>
                                 </form>
 
 

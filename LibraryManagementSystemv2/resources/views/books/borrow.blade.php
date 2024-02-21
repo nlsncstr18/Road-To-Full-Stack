@@ -50,7 +50,7 @@
                                 @csrf
                                 @method('DELETE')
                                 <button
-                                    class="bg-red-500 p-2 font-medium text-red-900 rounded  hover:underline ms-3">Return</button>
+                                    class="bg-red-500 p-2 font-medium text-red-900 rounded  hover:bg-red-600 ms-3">Return</button>
                             </form>
 
 

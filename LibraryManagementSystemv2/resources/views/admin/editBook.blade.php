@@ -50,15 +50,19 @@
 
 
 
-            <div class="mb-6">
+            <div class="mb-6 flex flex-row justify-between">
                 <button type="submit" class="bg-green-500 text-white rounded py-2 px-4 hover:bg-black font-bold">
                     Update
                 </button>
+                <a href="/" class="bg-red-500 text-white rounded py-2 px-4 hover:bg-black font-bold text-right">
+                    Cancel
+                </a>
 
             </div>
 
 
         </form>
+
     </div>
 
 
